@@ -135,6 +135,7 @@ The interface includes:
 
 ## **Future Enhancements**
 
+- Enhance models' performances by aenriching the dataset with more information
 - Add TMDB API for live posters and more metadata  
 - Deploy the app online (HuggingFace Spaces / Gradio Cloud)  
 - Implement collaborative filtering  
