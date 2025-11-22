@@ -74,26 +74,16 @@ Key columns used:
 - `Overview`
 - `Full_text` (main text used for NLP)
 
-## **Installation**
-
-### 1. Clone the repository
-git clone https://github.com/<your-username>/imdb-nlp-movie-recommender.git
-cd imdb-nlp-movie-recommender
-
-### 2. Install dependencies
-pip install -r requirements.txt
-
-### 3. Add the dataset
-data/imdb_top_1000.csv
-
-data/extra_description.xlsx
-
 ## **How to Run the Project**
 
-### **Run through Jupyter Notebook**
+### **Run through Jupyter Notebook / Collab**
 1. Open **project1.ipynb**
-2. Run all cells sequentially  
-3. The Gradio app will launch at a link 
+2. Run all cells sequentially
+3. Add the datasets : 
+  data/imdb_top_1000.csv
+
+  data/extra_description.xlsx
+4. The Gradio app will launch at a link 
 
 ## **Methods Used**
 
