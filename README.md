@@ -85,6 +85,7 @@ pip install -r requirements.txt
 
 ### 3. Add the dataset
 data/imdb_top_1000.csv
+
 data/extra_description.xlsx
 
 ## **How to Run the Project**
