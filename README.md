@@ -8,17 +8,17 @@ Users can interact with the system through an easy **Gradio web interface**, all
 
 ---
 
-## 📌 **Key Features**
+##  **Key Features**
 
-### 🔹 1. **Age-Based Filtering**
+### 1. **Age-Based Filtering**
 Restricts movies according to the user’s age using certificates such as:
 - G, PG, PG-13, R, TV-14, TV-MA, etc.
 
-### 🔹 2. **Genre Filtering**
+### 2. **Genre Filtering**
 Users can filter movies by genre selections, such as:
 - Action, Drama, Thriller, Romance, Animation, Horror, Comedy, and more.
 
-### 🔹 3. **NLP Mood-Based Movie Search**
+### 3. **NLP Mood-Based Movie Search**
 Users can enter any text describing what they feel like watching, such as:
 - “dark psychological thriller about obsession”
 - “light feel-good comedy for the weekend”
@@ -28,14 +28,14 @@ Two search engines are supported:
 - **TF-IDF Vectorizer (unigrams + bigrams)**
 - **SentenceTransformer embeddings (semantic)**
 
-### 🔹 4. **Machine Learning Models**
+### 4. **Machine Learning Models**
 The notebook includes:
 - **Regression models** to predict IMDb rating
 - **Classification models**
 - **Clustering** (e.g., KMeans) for thematic grouping
 - **Dimensionality reduction** (PCA/SVD)
 
-### 🔹 5. **Interactive Web Interface (Gradio)**
+### 5. **Interactive Web Interface (Gradio)**
 The app provides:
 - Age filtering  
 - Genre selection  
@@ -45,7 +45,7 @@ The app provides:
 
 ---
 
-## 📁 **Project Structure**
+##  **Project Structure**
 imdb-nlp-movie-recommender/
 │
 ├── README.md # Project documentation
@@ -58,7 +58,7 @@ imdb-nlp-movie-recommender/
 
 ---
 
-## 🧠 **Dataset Information**
+## **Dataset Information**
 
 The project uses the **IMDb Top 1000 Movies Dataset** from Kaggle.
 
@@ -74,7 +74,7 @@ Key columns used:
 - `Overview`
 - `Full_text` (main text used for NLP)
 
-## 🔧 **Installation**
+## **Installation**
 
 ### 1. Clone the repository
 git clone https://github.com/<your-username>/imdb-nlp-movie-recommender.git
@@ -87,40 +87,40 @@ pip install -r requirements.txt
 data/imdb_top_1000.csv
 data/extra_description.xlsx
 
-## ▶️ **How to Run the Project**
+## **How to Run the Project**
 
 ### **Run through Jupyter Notebook**
 1. Open **project1.ipynb**
 2. Run all cells sequentially  
 3. The Gradio app will launch at a link 
 
-## 🧪 **Methods Used**
+## **Methods Used**
 
-### 🔹 **1. Data Cleaning & Preparation**
+### **1. Data Cleaning & Preparation**
 - Handling missing values  
 - Converting numerical columns  
 - Extracting main genre  
 - Building combined text (`Full_Text`)  
 
-### 🔹 **2. NLP Processing**
+### **2. NLP Processing**
 - **TF-IDF Vectorizer**:  
   - unigrams + bigrams  
   - max_features = 15000  
 - **SentenceTransformer embeddings**:
   - `all-MiniLM-L6-v2` (or similar)
 
-### 🔹 **3. Feature Engineering**
+### **3. Feature Engineering**
 - Runtime in minutes  
 - Year grouping  
 - Normalized text fields  
 
-### 🔹 **4. ML Models**
+### **4. ML Models**
 - Random Forest  
 - Logistic Regression  
 - KMeans clustering  
 - PCA/SVD dimensionality reduction  
 
-### 🔹 **5. Recommender Function**
+### **5. Recommender Function**
 The core mood-based recommender:
 - Vectorizes user mood input  
 - Calculates cosine similarity  
@@ -128,7 +128,7 @@ The core mood-based recommender:
 
 ---
 
-## 🌐 **Gradio Interface**
+## **Gradio Interface**
 
 The interface includes:
 
@@ -142,7 +142,7 @@ The interface includes:
 
 ---
 
-## 🚀 **Future Enhancements**
+## **Future Enhancements**
 
 - Add TMDB API for live posters and more metadata  
 - Deploy the app online (HuggingFace Spaces / Gradio Cloud)  
@@ -152,11 +152,11 @@ The interface includes:
 
 ---
 
-## 📜 **License**
+## **License**
 This project is released under the **MIT License**.
 
 ---
 
-## 👩‍💻 **Author**
+## **Authors**
 Developed by Tala Alothaim, Norah Abanumay, Hanadi Alrajhi, Nouf Aloraier as an academic project to explore NLP, machine learning, and recommender systems.
 
